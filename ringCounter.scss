@@ -1,0 +1,30 @@
+#counter {
+  width: 40px;
+  float: right;
+  position: absolute;
+  top: 29px;
+  right: 20px;
+  svg {
+    height: 40px;
+    width: 40px;
+    text {
+      font-size: 10px;
+      stoke-width: initial !important;
+    }
+  }
+  span {
+    font-size: 7px;
+    color: green;
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    left: 9px;
+  }
+  circle {
+    fill: none;
+    stroke-width: 2;
+  }
+  #gray {
+    stroke: lightgray;
+  }
+}
